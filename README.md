@@ -17,7 +17,7 @@ A single-page application implements simple chat functionality.
 
 # Preview
 <p align="center">
-  <img src="https://github.com/vlkzmn/gadgets_store/raw/main/public/preview.gif">
+  <img src="https://github.com/vlkzmn/simple_chat/raw/main/public/preview.gif">
 </p>
 
 # Features & Functionality
