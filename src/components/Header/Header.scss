@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 30px;
+  height: 56px;
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 2px solid #dadce0;
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    &--danger {
+      font-size: 20px;
+      font-weight: 600;
+      color: red;
+    }
+  }
+
+  &__title {
+    font-size: 22px;
+  }
+
+  &__form {
+    display: flex;
+    gap: 20px;
+  }
+}

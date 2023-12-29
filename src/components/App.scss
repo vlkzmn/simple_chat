@@ -1,0 +1,15 @@
+.app {
+  display: flex;
+
+  &__sidebar {
+    width: 20%; 
+    border-right: 2px solid #dadce0;
+    padding-bottom: 20px;
+  }
+
+  &__main {
+    width: 80%;
+    background-image: url(../img/bgi.jpg);
+    background-size: cover;
+  }
+}

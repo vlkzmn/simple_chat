@@ -1,9 +1,28 @@
-# React TypeScript Starter Pack
+# Simple Chat App
+A single-page application implements simple chat functionality.
 
-To use this template click `Use this template`
+# [LIVE DEMO](https://vlkzmn.github.io/simple_chat/)
+(the server is hosted on free hosting render.com, there may be delays in data loading)
 
-### Available Scripts
+# [SERVER REPO](https://github.com/vlkzmn/simple_chat_api)
 
-`Deploy` - available to deploy your application to gh-pages
+# Technologies used
+- React
+- SCSS
+- TypeScript
+- Node
+- Sequelize
+- PostgreSQL
+- WebSocket
 
-`SCSS Preprocessor` - available to write your styles with modern style language
+# Preview
+<p align="center">
+  <img src="https://github.com/vlkzmn/gadgets_store/raw/main/public/preview.gif">
+</p>
+
+# Features & Functionality
+- User typing a username
+- Real-time messaging by WebSocket
+- All the messages have an author, time and text
+- Implemented an ability to create rooms (create / rename / delete)
+- New user see all prev messages in the room
